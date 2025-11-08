@@ -1,0 +1,54 @@
+.game h1 {
+  font-size: 2.5em;
+}
+
+.points span {
+  font-weight: bold;
+}
+
+.tip span {
+  color: crimson;
+}
+
+.wordContainer {
+  border: 10px solid palevioletred;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 30px;
+  margin: 20px auto;
+  width: fit-content;
+  max-width: 90%;
+}
+
+.letter,
+.blankSquare {
+  width: 100px;
+  height: 100px;
+  background-color: lavenderblush;
+  font-size: 2rem;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.letterContainer p {
+  margin-bottom: 1.2em;
+}
+
+.letterContainer form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.letterContainer input {
+  height: 50px;
+  width: 50px;
+  font-size: 2em;
+  text-align: center;
+  margin-right: 1em;
+}

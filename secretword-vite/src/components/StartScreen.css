@@ -1,0 +1,15 @@
+.difficulty {
+  margin: 1em 0 2em;
+}
+
+.difficulty label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.difficulty select {
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1em;
+}

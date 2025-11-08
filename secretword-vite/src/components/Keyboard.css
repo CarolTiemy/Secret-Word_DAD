@@ -1,0 +1,30 @@
+.keyboard-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.keyboard-key {
+  background-color: palevioletred;
+  color: white;
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.keyboard-key:hover:not(:disabled) {
+  background-color: lightpink;
+}
+
+.keyboard-key:disabled {
+  background-color: lightgrey;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
